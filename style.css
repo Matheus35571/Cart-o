@@ -1,5 +1,6 @@
 body{
     background-color: rgb(43, 43, 43);
+    color: aliceblue;
 }
 
 #container{
@@ -10,4 +11,7 @@ body{
 
     margin: 1rem 1rem;
     background-color: rgb(135, 22, 150);
+    height: 20rem;
+    flex: grow 1;
+    flex-basis: calc(33% -6rem);
 }
